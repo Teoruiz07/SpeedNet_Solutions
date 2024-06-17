@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
 }
 .bg-img {
     filter: brightness(0.6);
@@ -13,14 +14,14 @@ body {
 
 .home-h1 {
     color: white;
-    padding-top: 100px;
+    padding-top: 50px;
     font-weight: bolder;
     font-size: 100px;
 }
 
 .head-p {
     color: white;
-    padding-right: 350px;
+    padding-right: 0px;
     font-size: 25px;
     font-weight: 100;
 }
@@ -48,8 +49,7 @@ body {
 }
 
 #services {
-    display: flex;
-    height: 70vh;
+    margin-top: 50px;
 }
 
 .services-container {
@@ -57,6 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
+   
 }
 
 .services-card {
@@ -67,6 +68,7 @@ body {
     overflow: hidden;
     border-radius: 15px;
     border: none;
+    padding: 0;
 }
 
 .services-img {
@@ -111,4 +113,9 @@ body {
 .services-card:hover .services-p {
     visibility: visible;
     opacity: 1;
+}
+
+#inquiry > div {
+    text-align: center;
+    margin-top: 10px;
 }
