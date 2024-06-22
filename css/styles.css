@@ -39,12 +39,12 @@ body {
     padding-bottom: 20px;
 }
 
-.h-p-h2 {
-    font-size: 40px;
+.h-p-h2, .why-h2 {
+    font-size: 50px;
     font-weight: 700;
 }
 
-.h-p-p {
+.h-p-p, .why-div > p {
     font-size: 18px;
 }
 
@@ -138,7 +138,80 @@ body {
     border-radius: 16px;
     filter: brightness(0.6);
 }
+ #why {
+    background-color: #EBF4F6;
+    text-align: center;
+    padding: 40px 0 40px;
+ }
 
-.inquiry-btn {
-  
-}
+ .why-h2 {
+    margin-bottom: 30px;
+ }
+ 
+ .why-card {
+  padding: 0 15px 0 15px;
+ }
+ .why-img {
+    width: 80px;
+    margin: 30px 0 20px 0;
+ }
+
+ .why-h3 {
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    letter-spacing: -0.03em;
+ }
+
+ .why-inner-p, .name-p {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.45px;
+    line-height: 21px;
+ }
+
+ #review {
+    padding: 40px 0 40px;
+    text-align: center;
+ }
+
+ .review-card > img {
+    width: 40px;
+    margin: 30px 0 30px;
+ }
+
+ .review-card {
+    width: 30%;
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 100px #EBF4F6;
+    border: solid black;
+ }
+
+ .review-p {
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: -0.45px;
+ }
+
+ .review-card-div > img {
+    width: 80px;
+    border-radius: 100%;
+    border: solid;
+    border-color: gold;
+ }
+
+ .review-card-div {
+    display: inline-block;
+    border-top: solid;
+    border-color: black;
+    border-width: 0.01px;
+    padding: 15px 0 15px;
+    margin: 15px 0 15px;
+ }
+
+ .name-p {
+    margin-bottom: 30px;
+ }
