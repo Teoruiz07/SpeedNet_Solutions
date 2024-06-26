@@ -6,13 +6,14 @@ body {
     filter: brightness(0.6);
     position: absolute;
     z-index: -1;
+    object-fit: cover;
 }
 
 .brand-logo {
    width: 50px;
 }
 
-.dropdown-menu {
+.home-nav-dropdown {
     background-color: transparent;
 }
 .products-dropdown {
@@ -272,3 +273,18 @@ body {
  .c-24 {
     margin-top: 15px;
  }
+
+ /*Internet Page*/
+ .internet-navbar {
+    height: 100px;
+    border-radius: 10px;
+ }
+
+.internet-head-div {
+    background-image: url("../images/Internet_page.jpg");
+    height: 650px;
+    margin-top: 25px;
+    border-radius: 16px;
+    background-size: cover;
+
+}
