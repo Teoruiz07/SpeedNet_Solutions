@@ -276,8 +276,12 @@ body {
 
  /*Internet Page*/
  .internet-navbar {
-    height: 100px;
     border-radius: 10px;
+    background-color: white;
+ }
+
+ .products-dropdown2, .internet-nav-link {
+    color: black;
  }
 
 .internet-head-div {
@@ -286,5 +290,120 @@ body {
     margin-top: 25px;
     border-radius: 16px;
     background-size: cover;
+    width: 95%;
+}
 
+.internet-h1-div {
+    background-color: white;
+    padding: 80px 20px 50px 20px;
+    border-radius: 20px;
+    margin-top: 150px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.internet-h1-div > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: -0.45px;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+}
+
+.internet-h1-div > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    list-style: -0.45px;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+}
+
+/*Residential Plan Section*/
+.residential-plan-div {
+    padding: 60px 10px 60px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: #EBF4F6;
+    border-radius: 20px;
+}
+
+.residential-plan-div > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: -0.45px;
+    letter-spacing: -0.03em;
+    margin-bottom: 8px;
+}
+
+.residential-plan-div > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    list-style: -0.45px;
+    letter-spacing: -0.03em;
+    margin-bottom: 60px;
+}
+
+.internet-price-card-div {
+    justify-content: center;
+}
+
+.internet-price-card {
+    padding: 30px;
+    background-color: white;
+    border-radius: 20px;
+    width: 24%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.internet-price-card > h3 {
+    font-size: 20px;
+    font-weight: 800;
+    padding: 25px 0 0;
+    letter-spacing: -0.04em;
+}
+
+.internet-price-p {
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0;
+    margin-bottom: 25px;
+}
+
+.internet-price {
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0 0 25px 0;
+    line-height: -0.50px;
+    letter-spacing: -0.04em;
+}
+
+.internet-price-card > h6 {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: -0.50px;
+    letter-spacing: -0.03em;
+}
+
+.internet-price > span {
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 0;
+}
+
+.plans-feature {
+    margin-bottom: 7px;
+    font-size: 15px;
+    letter-spacing: -0.03em;
+    line-height: -0.45px;
+    text-decoration: dashed;
+}
+
+@media (max-width: 500px) {
+    .internet-price-card {
+        width: 90%;
+    }
 }
