@@ -90,7 +90,7 @@ body {
     height: 450px;
     width: 280px;
     margin: 5px;
-    box-shadow: 5px 5px 20px black;
+    box-shadow: 0 0 20px black;
     overflow: hidden;
     border-radius: 15px;
     border: none;
@@ -126,12 +126,12 @@ body {
     visibility: hidden;
     opacity: 0;
 }
-
+/*
 .services-card:hover {
     cursor: pointer;
     transform: scale(1.15);
 }
-
+*/
 .services-card:hover .intro {
     height: 225px;
     top: 225px;
@@ -209,8 +209,9 @@ body {
  .review-card {
     padding: 15px;
     border-radius: 16px;
-    box-shadow: 5px 5px 100px #EBF4F6;
-    border: solid #EBF4F6;
+    box-shadow: 0 5px 25px 0px rgba(0, 0, 0, .15);
+    width: 32%;
+    margin-left: 10px;
  }
 
  .review-p {
@@ -241,7 +242,7 @@ body {
  }
 
  #footer {
-    background-color: #EBF4F6;
+    background-color: rgb(235, 244, 246);
     padding: 50px;
     text-align: center;
  }
@@ -285,12 +286,13 @@ body {
  }
 
 .internet-head-div {
-    background-image: url("../images/Internet_page.jpg");
+    background-image: url("../images/browsing.jpg");
     height: 650px;
     margin-top: 25px;
-    border-radius: 16px;
+    border-radius: 0;
     background-size: cover;
-    width: 95%;
+    background-position: center;
+    width: 100%;
 }
 
 .internet-h1-div {
@@ -300,6 +302,8 @@ body {
     margin-top: 150px;
     margin-left: 40px;
     text-align: left;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, .25);
+
 }
 
 .internet-h1-div > h1 {
@@ -324,7 +328,6 @@ body {
     padding: 60px 10px 60px;
     text-align: center;
     margin-top: 40px;
-    background-color: #EBF4F6;
     border-radius: 20px;
 }
 
@@ -350,13 +353,14 @@ body {
 }
 
 .internet-price-card {
-    padding: 30px;
+    padding: 20px;
     background-color: white;
     border-radius: 20px;
     width: 24%;
     margin: auto;
     text-align: left;
     margin-bottom: 20px;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, .25);
 }
 
 .internet-price-card > h3 {
@@ -386,6 +390,8 @@ body {
     font-weight: normal;
     line-height: -0.50px;
     letter-spacing: -0.03em;
+    color: #0F67B1;
+    font-weight: 900;
 }
 
 .internet-price > span {
@@ -402,8 +408,36 @@ body {
     text-decoration: dashed;
 }
 
+/*Internet Contact Section*/
+#internet-contact {
+    background-color: #0F67B1;
+    text-align: center;
+    padding: 25px 0 25px;
+    margin: 50px 0 50px;
+}
+
+.internet-contact-div > h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: -0.03em;
+    line-height: -0.45px;
+    margin: 25px 0 25px 0;
+}
+
+.internet-contact-btn {
+    margin-bottom: 25px;
+}
+
+
 @media (max-width: 500px) {
     .internet-price-card {
         width: 90%;
+    }
+}
+@media (max-width: 1080px) and (min-width: 500px) {
+    .internet-price-card {
+        width: 45%;
     }
 }
