@@ -1,6 +1,15 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    background-color: linear-gradient(#ffdad5,#fff7f9);
+    overflow-x: hidden;
+}
+
+nav {
+    padding: 0;
+}
+
+.nav-l {
+    color: #ffffff;
 }
 .bg-img {
     filter: brightness(0.6);
@@ -10,35 +19,38 @@ body {
 }
 
 .brand-logo {
-   width: 50px;
+   width: 40px;
 }
 
 .home-nav-dropdown {
     background-color: transparent;
+    border: none;
 }
+
 .products-dropdown {
     color: white;
+    border-radius: 16px;
 }
 
 .home-h1 {
     color: white;
     padding-top: 100px;
-    font-weight: bolder;
-    font-size: 100px;
+    font-weight: 900;
+    font-size: 60px;
     line-height: -0.50px;
 }
 
 .head-p {
     color: white;
     padding-right: 0px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 100;
-    line-height: -0.45px;
-    letter-spacing: -o.3em;
+
 }
 
 .home-header {
     height: 672px;
+    overflow: hidden;
 }
 
 @media (max-width: 500px){
@@ -61,36 +73,35 @@ body {
     text-align: center;
 }
 .internet-logo {
-    width: 80px;
-    padding-bottom: 20px;
+    width: 50px;
+    margin-bottom: 10px;
 }
 
-.h-p-h2, .why-h2 {
-    font-size: 50px;
-    font-weight: 700;
+.h-p-h2, .why-h2, .review-h2 {
+    font-size: 40px;
+    font-weight: 600;
 }
 
 .h-p-p, .why-div > p {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 #services {
-    margin-top: 50px;
+    margin-top: 15px;
 }
 
 .services-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 20px 20px 20px 20px;
    
 }
 
 .services-card {
-    height: 450px;
+    height: 400px;
     width: 280px;
-    margin: 5px;
-    box-shadow: 0 0 20px black;
+    margin: 0;
     overflow: hidden;
     border-radius: 15px;
     border: none;
@@ -99,7 +110,7 @@ body {
 }
 
 .services-img {
-    height: 450px;
+    height: 400px;
     object-fit: cover;
 }
 
@@ -116,16 +127,17 @@ body {
 
 .services-h2 {
     margin: 5px;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .services-p {
-    font-size: 18px;
+    font-size: 12px;
     margin: 5px;
     visibility: hidden;
     opacity: 0;
 }
+
 /*
 .services-card:hover {
     cursor: pointer;
@@ -133,8 +145,8 @@ body {
 }
 */
 .services-card:hover .intro {
-    height: 225px;
-    top: 225px;
+    height: 250px;
+    top: 150px;
     transition: .5s;
 }
 
@@ -144,17 +156,17 @@ body {
 }
 
 .i-h-p {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 #inquiry {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;  
+    margin-top: 30px;
+    margin-bottom: 40px;  
 }
 
 .inquiry-item {
-    height: 750px;
+    height: 550px;
     transition: all 0.3s;
 }
 
@@ -167,25 +179,26 @@ body {
  #why {
     background-color: #EBF4F6;
     text-align: center;
-    padding: 40px 0 40px;
+    padding: 25px 0 25px;
+    margin-bottom: 40px;
  }
 
  .why-h2 {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
  }
  
  .why-card {
   padding: 0 15px 0 15px;
  }
  .why-img {
-    width: 80px;
-    margin: 30px 0 20px 0;
+    width: 50px;
+    margin: 13px 0 10px 0;
  }
 
  .why-h3, .footer-h3 {
-    font-weight: 700;
+    font-weight: 600;
     font-family: sans-serif;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     letter-spacing: -0.03em;
  }
 
@@ -197,13 +210,18 @@ body {
  }
 
  #review {
-    padding: 40px 0 40px;
+    padding: 10px 0 10px;
     text-align: center;
+    margin-bottom: 40px;
+ }
+
+ .review-h2 {
+    margin-bottom: 15px;
  }
 
  .review-card > img {
     width: 40px;
-    margin: 30px 0 30px;
+    margin: 20px 0 20px;
  }
 
  .review-card {
@@ -216,7 +234,7 @@ body {
 
  .review-p {
     font-family: sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: -0.03em;
     line-height: -0.45px;
  }
@@ -224,8 +242,6 @@ body {
  .review-card-div > img {
     width: 80px;
     border-radius: 100%;
-    border: solid;
-    border-color: gold;
  }
 
  .review-card-div {
@@ -233,8 +249,8 @@ body {
     border-top: solid;
     border-color: black;
     border-width: 0.01px;
-    padding: 15px 0 15px;
-    margin: 15px 0 15px;
+    padding: 10px 0 10px;
+    margin: auto;
  }
 
  .name-p {
@@ -243,7 +259,7 @@ body {
 
  #footer {
     background-color: rgb(235, 244, 246);
-    padding: 50px;
+    padding: 25px;
     text-align: center;
  }
 
@@ -264,7 +280,7 @@ body {
     margin-top: 5px;
  }
  .footer-social {
-    padding-top: 15px;
+    margin-top: 10px;
  }
  .footer-link {
     color: black;
@@ -272,7 +288,7 @@ body {
  }
 
  .c-24 {
-    margin-top: 15px;
+    margin-top: 10px;
  }
 
  /*Internet Page*/
@@ -288,7 +304,7 @@ body {
 .internet-head-div {
     background-image: url("../images/browsing.jpg");
     height: 650px;
-    margin-top: 25px;
+    margin-top: 0;
     border-radius: 0;
     background-size: cover;
     background-position: center;
@@ -297,7 +313,7 @@ body {
 
 .internet-h1-div {
     background-color: white;
-    padding: 80px 20px 50px 20px;
+    padding: 30px;
     border-radius: 20px;
     margin-top: 150px;
     margin-left: 40px;
@@ -308,16 +324,16 @@ body {
 
 .internet-h1-div > h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
-    line-height: -0.45px;
+    line-height: 40px;
     letter-spacing: -0.03em;
     margin-bottom: 16px;
 }
 
 .internet-h1-div > p {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
+    font-size: 13px;
     list-style: -0.45px;
     letter-spacing: -0.03em;
     margin-bottom: 16px;
@@ -325,20 +341,20 @@ body {
 
 /*Residential Plan Section*/
 .residential-plan-div {
-    padding: 60px 10px 60px;
+    padding: 40px 0px 40px;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 0px;
     border-radius: 20px;
 
 }
 
 .residential-plan-div > h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-    font-weight: 900;
+    font-size: 45px;
+    font-weight: 700;
     line-height: -0.45px;
     letter-spacing: -0.03em;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 .residential-plan-div > p {
@@ -346,7 +362,7 @@ body {
     font-size: 17px;
     list-style: -0.45px;
     letter-spacing: -0.03em;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .internet-price-card-div {
@@ -360,13 +376,13 @@ body {
     width: 24%;
     margin: auto;
     text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     box-shadow: 0 0 25px 0px rgba(0, 0, 0, .25);
 }
 
 .internet-price-card > h3 {
     font-size: 20px;
-    font-weight: 800;
+    font-weight: 600;
     padding: 25px 0 0;
     letter-spacing: -0.04em;
 }
@@ -375,13 +391,13 @@ body {
     font-size: 15px;
     font-weight: normal;
     letter-spacing: 0;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .internet-price {
-    font-size: 50px;
-    font-weight: 800;
-    margin: 0 0 25px 0;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
     line-height: -0.50px;
     letter-spacing: -0.04em;
 }
@@ -402,8 +418,8 @@ body {
 }
 
 .plans-feature {
-    margin-bottom: 7px;
-    font-size: 15px;
+    margin-bottom: 4px;
+    font-size: 13px;
     letter-spacing: -0.03em;
     line-height: -0.45px;
     text-decoration: dashed;
@@ -413,33 +429,46 @@ body {
 #internet-contact {
     background-color: #0F67B1;
     text-align: center;
-    padding: 25px 0 25px;
-    margin: 50px 0 50px;
+    padding: 15px 0 15px;
+    margin: 10px 0 10px;
 }
 
 .internet-contact-div > h3 {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: -0.03em;
     line-height: -0.45px;
-    margin: 25px 0 25px 0;
+    margin: 10px 0 10px 0;
 }
 
 .internet-contact-btn {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .internet-plan-disclaimer {
     text-align: left;
-    padding: 50px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.internet-plan-disclaimer-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .internet-dis-card {
-    padding: 40px;
-    margin-left: 30px;
+    padding: 20px;
+    margin-left: 0;
     background-color: white;
+    height: 290px;
+}
+
+.i-d-c {
+    margin-right: 30px;
 }
 
 .internet-plan-disclaimer > h2 {
@@ -465,8 +494,8 @@ body {
     margin-bottom: 20px;
 }
 
-.installation-icon {
-    width: 150px;
+.i-d-img {
+    width: 100px;
 }
 
 @media (max-width: 500px) {
