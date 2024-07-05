@@ -329,6 +329,7 @@ body {
     text-align: center;
     margin-top: 40px;
     border-radius: 20px;
+
 }
 
 .residential-plan-div > h2 {
@@ -430,6 +431,43 @@ body {
     margin-bottom: 25px;
 }
 
+.internet-plan-disclaimer {
+    text-align: left;
+    padding: 50px;
+}
+
+.internet-dis-card {
+    padding: 40px;
+    margin-left: 30px;
+    background-color: white;
+}
+
+.internet-plan-disclaimer > h2 {
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: -0.45px;
+    margin-bottom: 20px;
+}
+
+.internet-disclaimer-h3 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: -0.45px;
+    margin-bottom: 10px;
+}
+
+.internet-disclaimer-p {
+    font-size: 15px;
+    letter-spacing: -0.03em;
+    line-height: -0.45px;
+    margin-bottom: 20px;
+}
+
+.installation-icon {
+    width: 150px;
+}
 
 @media (max-width: 500px) {
     .internet-price-card {
