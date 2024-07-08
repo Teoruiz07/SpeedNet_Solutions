@@ -576,6 +576,59 @@ nav {
 #Plan {
     font-weight: 700;
 }
+
+/*Contact Us Page*/
+#contact-us-body {
+    background-image: url(../images/contact_us.jpg);
+}
+
+#message {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+/*Cybersecurity Page*/
+.cybersecurity-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 40px 0 40px 0;
+}
+
+.cybersecurity-head-left, .cybersecurity-head-right {
+    width: 50%;
+    padding: 20px;
+    margin: 0;
+}
+
+.cybersecurity-head-right {
+    text-align: justify;
+    padding-left: 30px;
+}
+
+.cybersecurity-head-right > h2 {
+    font-weight: 900;
+    margin-top: 200px;
+    font-size: 70px;
+}
+
+.cybersecurity-head-right > p {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.cybersecurity-head-right > a {
+    margin-top: 60px;
+}
+
+.cybersecurity-head-left > img {
+    width: 100%;
+}
+
 @media (max-width: 500px) {
     .internet-price-card {
         width: 90%;
@@ -594,6 +647,15 @@ nav {
     .plan-form > button {
         width: 50%;
     }
+    
+    .cybersecurity-header {
+        flex-direction: column;
+    }
+
+    .cybersecurity-head-left, .cybersecurity-head-right {
+        padding: 0;
+        width: 100%;
+    }
 }
 
 @media (max-width: 1080px) and (min-width: 500px) {
@@ -609,4 +671,15 @@ nav {
     .plan-form {
         width: 90%;
     }
+
+    .cybersecurity-header {
+        flex-direction: column;
+    }
+
+    .cybersecurity-head-left, .cybersecurity-head-right {
+        padding: 0;
+        width: 100%;
+    }
+
+   
 }
