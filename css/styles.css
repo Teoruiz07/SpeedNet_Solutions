@@ -458,7 +458,7 @@ nav {
 .internet-plan-disclaimer-div {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .internet-dis-card {
@@ -466,30 +466,29 @@ nav {
     margin-left: 0;
     background-color: white;
     height: 290px;
+    width: 45%;
 }
 
-.i-d-c {
-    margin-right: 30px;
-}
+
 
 .internet-plan-disclaimer > h2 {
-    font-size: 40px;
-    font-weight: 700;
-    letter-spacing: -0.03em;
-    line-height: -0.45px;
-    margin-bottom: 20px;
-}
-
-.internet-disclaimer-h3 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     letter-spacing: -0.03em;
     line-height: -0.45px;
     margin-bottom: 10px;
 }
 
-.internet-disclaimer-p {
+.internet-disclaimer-h3 {
     font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: -0.45px;
+    margin-bottom: 5px;
+}
+
+.internet-disclaimer-p {
+    font-size: 12px;
     letter-spacing: -0.03em;
     line-height: -0.45px;
     margin-bottom: 20px;
@@ -747,6 +746,15 @@ nav {
 @media (max-width: 500px) {
     .internet-price-card {
         width: 90%;
+    }
+
+    .internet-plan-disclaimer-div {
+        flex-direction: column;
+        
+    }
+
+    .internet-dis-card {
+        width: 100%;
     }
 
     .review-card {
