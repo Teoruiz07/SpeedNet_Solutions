@@ -19,7 +19,19 @@ nav {
 }
 
 .brand-logo {
-   width: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.brand-logo-h4 {
+    font-weight: 900;
+    margin: 0;
+}
+
+.brand-logo-p {
+    font-weight: 700;
+    font-size: 15px;
+    margin: 0;
 }
 
 .home-nav-dropdown {
@@ -262,6 +274,7 @@ nav {
     background-color: rgb(235, 244, 246);
     padding: 25px;
     text-align: center;
+    margin-top: 20px;
  }
 
  .footer-h3 {
