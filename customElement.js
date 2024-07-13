@@ -65,7 +65,7 @@ class HomeNav extends HTMLElement {
               </a>
               <ul class="dropdown-menu home-nav-dropdown">
                 <li><a class="dropdown-item products-dropdown" href="internet_product.html">internet</a></li>
-                <li><a class="dropdown-item products-dropdown" href="#">Networking</a></li>
+                <li><a class="dropdown-item products-dropdown" href="networking.html">Networking</a></li>
                 <li><a class="dropdown-item products-dropdown" href="cybersecurity.html">Cybersecurity</a></li>
                 <li><a class="dropdown-item products-dropdown" href="#">Web Design</a></li>
               </ul>
@@ -105,7 +105,7 @@ class PlainNav extends HTMLElement {
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item products-dropdown2" href="internet_product.html">internet</a></li>
-                      <li><a class="dropdown-item products-dropdown2" href="#">Networking</a></li>
+                      <li><a class="dropdown-item products-dropdown2" href="networking.html">Networking</a></li>
                       <li><a class="dropdown-item products-dropdown2" href="cybersecurity.html">Cybersecurity</a></li>
                       <li><a class="dropdown-item products-dropdown2" href="#">Web Design</a></li>
                     </ul>
