@@ -1,6 +1,5 @@
 body {
     font-family: "Ubuntu", sans-serif;
-    background-color: linear-gradient(#ffdad5,#fff7f9);
     overflow-x: hidden;
 }
 
@@ -30,7 +29,7 @@ nav {
 
 .brand-logo-p {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 10px;
     margin: 0;
 }
 
@@ -759,13 +758,13 @@ nav {
 /*Network Page*/
 #network-head-sec {
     background-image: url(../images/networking_head.jpg);
-    height: 800px;
+    height: 500px;
     background-position: center;
     background-size: cover;
 }
 .network-head-div {
-    height: 800px;
-    padding: 300px 500px 300px 0;
+    height: 500px;
+    padding: 150px 500px 150px 0;
 }
 
 .network-head-div > h2 {
@@ -780,6 +779,57 @@ nav {
     color: #ffffff;
     line-height: -0.45px;
 
+}
+
+.network-dis-div {
+    margin-top: 60px;
+    padding: 100px;
+    box-shadow: 0 0 25px 0px rgba(0, 0, 0, .15);
+}
+
+.network-dis-div > h3 {
+    color: #0F67B1;
+    font-size: 38px;
+    line-height: 45px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.network-dis-div > p {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.network-service-div {
+    border: solid grey;
+    margin-bottom: 10px;
+    border-width: 0.5px;
+}
+
+.net-offer {
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    text-align: left;
+    padding: 17px 23px 16px 23px;
+    background-color: #0F67B1;
+    color: #ffffff;
+    outline: none;
+    border: none;
+}
+
+.net-offer > i {
+    justify-content: end;
+}
+
+.net-offer > i
+
+.net-offer-p {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 20px;
 }
 
 @media (max-width: 500px) {
