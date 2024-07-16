@@ -802,11 +802,7 @@ nav {
     margin-bottom: 30px;
 }
 
-.network-service-div {
-    border: solid grey;
-    margin-bottom: 10px;
-    border-width: 0.5px;
-}
+
 
 .net-offer {
     width: 100%;
@@ -818,10 +814,12 @@ nav {
     color: #ffffff;
     outline: none;
     border: none;
+    margin: 10px;
+    display: flex;
 }
 
 .net-offer > i {
-    justify-content: end;
+    margin-left: auto;
 }
 
 .net-offer > i
@@ -829,7 +827,14 @@ nav {
 .net-offer-p {
     font-size: 20px;
     line-height: 28px;
+    display: none;
+}
+
+.net-p-div {
+    margin-bottom: 10px;
     padding: 20px;
+    height: 80px;
+    display: none;
 }
 
 @media (max-width: 500px) {

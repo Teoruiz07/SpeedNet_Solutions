@@ -129,3 +129,84 @@ class PlainNav extends HTMLElement {
 customElements.define('swiftnet-footer', SwiftNetFooter)
 customElements.define('home-nav', HomeNav)
 customElements.define('plain-nav', PlainNav)
+
+
+/*
+var div = document.getElementById('myP')
+var display = 0;
+
+function hideShow() {
+
+  if(display == 1)
+    {
+      div.style.display = 'none';
+      display = 0
+    }
+    else
+    {
+      div.style.display = 'block';
+      display = 1;
+    }
+}
+
+*/
+
+var myButton = document.getElementById('myButton');
+var myP = document.getElementById('myP');
+
+myButton.addEventListener('click', event => {
+
+  if(myP.style.display === 'none') {
+    myP.style.display = 'block';
+  }
+  else {
+    myP.style.display = 'none';
+  }
+
+  
+});
+
+var myButtona = document.getElementById('myButtona');
+var myPa = document.getElementById('myPa');
+
+myButtona.addEventListener('click', event => {
+
+  if(myPa.style.display === 'none') {
+    myPa.style.display = 'block';
+  }
+  else {
+    myPa.style.display = 'none';
+  }
+
+  
+});
+
+var myButtonb = document.getElementById('myButtonb');
+var myPb = document.getElementById('myPb');
+
+myButtonb.addEventListener('click', event => {
+
+  if(myPb.style.display === 'none') {
+    myPb.style.display = 'block';
+  }
+  else {
+    myPb.style.display = 'none';
+  }
+
+  
+});
+
+var myButtonc = document.getElementById('myButtonc');
+var myPc = document.getElementById('myPc');
+
+myButtonc.addEventListener('click', event => {
+
+  if(myPc.style.display === 'none') {
+    myPc.style.display = 'block';
+  }
+  else {
+    myPc.style.display = 'none';
+  }
+
+  
+});
