@@ -7,9 +7,9 @@ class SwiftNetFooter extends HTMLElement {
           <div class="col-lg-4 col-md-12 col-sm-12">
             <h3 class="footer-h3">Quick Links</h3>
             <ul class="footer-ul">
-              <li><a href="">Internet</a></li>
-              <li><a href="">Networking</a></li>
-              <li><a href="">Cybersecurity</a></li>
+              <li><a href="internet_product.html">Internet</a></li>
+              <li><a href="networking.html">Networking</a></li>
+              <li><a href="cybersecurity.html">Cybersecurity</a></li>
               <li><a href="">Web Design</a></li>
             </ul>
           </div>
@@ -18,8 +18,8 @@ class SwiftNetFooter extends HTMLElement {
             <ul class="footer-ul">
               <li><a href="">Terms of Service</a></li>
               <li><a href="">Privacy Policy</a></li>
-              <li><a href="">About Us</a></li>
-              <li><a href="">Contact Us </a></li>
+              <li><a href="about_us.html">About Us</a></li>
+              <li><a href="contact_us.html">Contact Us </a></li>
             </ul>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12">
@@ -72,7 +72,7 @@ class HomeNav extends HTMLElement {
             </li>
     
             <li class="nav-item">
-              <a class="nav-link nav-l" href="#">About Us</a>
+              <a class="nav-link nav-l" href="about_us.html">About Us</a>
             </li>
             <li class="nav-item">
               <a class="nav-link nav-l" href="contact_us.html">Contact Us</a>
@@ -112,7 +112,7 @@ class PlainNav extends HTMLElement {
                   </li>
           
                   <li class="nav-item">
-                    <a class="nav-link internet-nav-link" href="#">About Us</a>
+                    <a class="nav-link internet-nav-link" href="about_us.html">About Us</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link internet-nav-link" href="contact_us.html">Contact Us</a>

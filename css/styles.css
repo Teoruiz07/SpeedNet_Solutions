@@ -735,6 +735,7 @@ nav {
     margin-bottom: 10px;
     box-shadow: 0 0 25px 0px rgba(0, 0, 0, .15);
     transition: all 0.3s;
+    background-color: #F5F7F8;
 }
 
 .cyber-feature-list-div:hover {
@@ -778,11 +779,11 @@ nav {
     font-size: 50px;
     color: #ffffff;
     line-height: -0.45px;
-
 }
 
 .network-dis-div {
     margin-top: 60px;
+    margin-bottom: 60px;
     padding: 100px;
     box-shadow: 0 0 25px 0px rgba(0, 0, 0, .15);
 }
@@ -802,7 +803,9 @@ nav {
     margin-bottom: 30px;
 }
 
-
+.network-service-div {
+    margin-bottom: 20px;
+}
 
 .net-offer {
     width: 100%;
@@ -810,12 +813,18 @@ nav {
     font-size: 20px;
     text-align: left;
     padding: 17px 23px 16px 23px;
-    background-color: #0F67B1;
-    color: #ffffff;
+    background-color: #F5F7F8;
+    color: #0F67B1;
     outline: none;
     border: none;
     margin: 10px;
     display: flex;
+    font-size: 17px;
+}
+
+.net-offer:hover {
+    background-color: #0F67B1;
+    color: #ffffff;
 }
 
 .net-offer > i {
@@ -831,11 +840,38 @@ nav {
 }
 
 .net-p-div {
-    margin-bottom: 10px;
     padding: 20px;
     height: 80px;
     display: none;
 }
+
+/*About Us Page*/
+#about-head {
+    background-image: url(../images/about_us.jpg);
+    height: 500px;
+    background-position: top;
+    background-size: cover;
+}
+
+.about-head-div {
+    height: 500px;
+    padding: 150px 500px 150px 0;
+}
+
+.about-head-div > h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    color: #ffffff;
+ }
+
+ .about-head-div > p {
+    font-size: 50px;
+    color: #ffffff;
+    line-height: -0.45px;
+}
+
+
 
 @media (max-width: 500px) {
     .internet-price-card {
@@ -896,6 +932,27 @@ nav {
 
     .network-head-div {
         padding: 300px 70px 200px 10px;
+    }
+
+    .network-head-div > p {
+        font-size: 30px;
+    }
+
+    .network-dis-div {
+        padding: 10px;
+    }
+
+    .network-dis-div > h3 {
+        font-size: 29px;
+    }
+
+    .net-offer-p {
+        font-size: 14px;
+    }
+
+    .net-p-div {
+        padding: 10px;
+        height: 120px;
     }
 }
 
