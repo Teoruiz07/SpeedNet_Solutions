@@ -10,7 +10,7 @@ class SwiftNetFooter extends HTMLElement {
               <li><a href="internet_product.html">Internet</a></li>
               <li><a href="networking.html">Networking</a></li>
               <li><a href="cybersecurity.html">Cybersecurity</a></li>
-              <li><a href="">Web Design</a></li>
+              <li><a href="web_design.html">Web Design</a></li>
             </ul>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12">
@@ -67,7 +67,7 @@ class HomeNav extends HTMLElement {
                 <li><a class="dropdown-item products-dropdown" href="internet_product.html">internet</a></li>
                 <li><a class="dropdown-item products-dropdown" href="networking.html">Networking</a></li>
                 <li><a class="dropdown-item products-dropdown" href="cybersecurity.html">Cybersecurity</a></li>
-                <li><a class="dropdown-item products-dropdown" href="#">Web Design</a></li>
+                <li><a class="dropdown-item products-dropdown" href="web_design.html">Web Design</a></li>
               </ul>
             </li>
     
@@ -107,7 +107,7 @@ class PlainNav extends HTMLElement {
                       <li><a class="dropdown-item products-dropdown2" href="internet_product.html">internet</a></li>
                       <li><a class="dropdown-item products-dropdown2" href="networking.html">Networking</a></li>
                       <li><a class="dropdown-item products-dropdown2" href="cybersecurity.html">Cybersecurity</a></li>
-                      <li><a class="dropdown-item products-dropdown2" href="#">Web Design</a></li>
+                      <li><a class="dropdown-item products-dropdown2" href="web_design.html">Web Design</a></li>
                     </ul>
                   </li>
           

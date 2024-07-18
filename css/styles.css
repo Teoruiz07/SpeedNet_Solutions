@@ -871,7 +871,41 @@ nav {
     line-height: -0.45px;
 }
 
+#about-body {
+    height: 400px;
+    margin: 30px 0 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.about-body-div > h3 {
+    color: #0F67B1;
+}
+
+/*Web Design Page*/
+#web-head {
+    background-image: url(../images/website.jpg);
+    height: 600px;
+    background-position: top;
+    background-size: cover;
+}
+
+.web-head-div {
+    height: 600px;
+    padding: 40px;
+}
+
+.web-head-div > h2 {
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: -0.03em;
+}
+
+.web-head-div > p {
+    font-size: 15px;
+    font-weight: 500;
+}
 
 @media (max-width: 500px) {
     .internet-price-card {
@@ -954,6 +988,22 @@ nav {
         padding: 10px;
         height: 120px;
     }
+
+    .about-head-div {
+        padding: 150px 30px 150px 30px;
+    }
+
+    .about-head-div > h2 {
+        font-size: 15px;
+    }
+
+    .about-head-div > p {
+        font-size: 35px;
+    }
+
+    .web-head-div {
+      padding: 400px 10px 10px 10px;
+    }
 }
 
 @media (max-width: 1080px) and (min-width: 500px) {
@@ -1005,4 +1055,20 @@ nav {
     .network-head-div {
         padding: 500px 70px 200px 10px;
     }
+
+    .about-head-div {
+        padding: 150px 30px 150px 30px;
+    }
+
+    .about-head-div > h2 {
+        font-size: 15px;
+    }
+
+    .about-head-div > p {
+        font-size: 35px;
+    }
+
+    .web-head-div {
+        padding: 450px 10px 10px 10px;
+      }
 }
