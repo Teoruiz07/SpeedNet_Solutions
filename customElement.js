@@ -16,14 +16,14 @@ class SwiftNetFooter extends HTMLElement {
           <div class="col-lg-4 col-md-12 col-sm-12">
             <h3 class="footer-h3">Customer Support </h3>
             <ul class="footer-ul">
-              <li><a href="">Terms of Service</a></li>
-              <li><a href="">Privacy Policy</a></li>
+              <li><a href="terms.html">Terms of Service</a></li>
+              <li><a href="privacy_policy.html">Privacy Policy</a></li>
               <li><a href="about_us.html">About Us</a></li>
               <li><a href="contact_us.html">Contact Us </a></li>
             </ul>
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12">
-            <h3 class="footer-h3">Subscribe to our newsletter</h3>
+            <h3 class="footer-h3">Our Location</h3>
 
           </div>
         </div>
