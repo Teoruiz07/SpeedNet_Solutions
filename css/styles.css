@@ -10,12 +10,14 @@ nav {
 .nav-l {
     color: #ffffff;
 }
+/*
 .bg-img {
     filter: brightness(0.6);
     position: absolute;
     z-index: -1;
     object-fit: cover;
 }
+*/
 
 .brand-logo {
   margin: 0;
@@ -62,6 +64,9 @@ nav {
 .home-header {
     height: 672px;
     overflow: hidden;
+    background-image: url("../images/Head_pic.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 @media (max-width: 500px){
@@ -110,7 +115,7 @@ nav {
 }
 
 .services-card {
-    height: 400px;
+    height: 450px;
     width: 280px;
     margin: 0;
     overflow: hidden;
@@ -121,7 +126,7 @@ nav {
 }
 
 .services-img {
-    height: 400px;
+    height: 450px;
     object-fit: cover;
 }
 
@@ -157,7 +162,7 @@ nav {
 */
 .services-card:hover .intro {
     height: 250px;
-    top: 150px;
+    top: 200px;
     transition: .5s;
 }
 
