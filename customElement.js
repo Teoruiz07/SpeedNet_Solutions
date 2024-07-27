@@ -149,7 +149,7 @@ function hideShow() {
     }
 }
 
-*/
+
 
 var myButton = document.getElementById('myButton');
 var myP = document.getElementById('myP');
@@ -210,3 +210,4 @@ myButtonc.addEventListener('click', event => {
 
   
 });
+*/
